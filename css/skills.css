@@ -1,0 +1,41 @@
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill {
+    width: 30%;
+}
+
+.skill-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill-header h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.skill-header i {
+    color: #FC4A1A;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 800px), screen and (orientation: portrait)  {
+    .skill {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .skills {
+        justify-content: space-around;
+    }
+    .skill {
+        width: 100%;
+    }
+}
