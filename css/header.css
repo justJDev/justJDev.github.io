@@ -33,7 +33,7 @@
 .header-inner {
     display: flex;
     justify-content: space-between;
-    max-width: 1280px;
+    max-width: 1300px;
     margin: auto;
 }
 
@@ -82,7 +82,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 1279px),
+@media screen and (max-width: 1300px),
 screen and (orientation: portrait) {
     .header-inner {
         flex-direction: column;
