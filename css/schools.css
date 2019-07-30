@@ -1,0 +1,41 @@
+.schools {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.school {
+    width: 100%;
+}
+
+.school-header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.school-header h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.school-header a {
+    text-decoration: none;
+}
+
+.school-header i {
+    color: #FC4A1A;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .schools {
+        justify-content: space-around;
+    }
+
+    .school {
+        width: 100%;
+    }
+}

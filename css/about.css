@@ -13,13 +13,16 @@
     margin-bottom: 75px;
 }
 
-@media screen and (max-width: 768px), screen and (orientation: portrait) {
+@media screen and (max-width: 768px),
+screen and (orientation: portrait) {
     .about {
         flex-direction: column;
     }
+
     .about-img {
         margin-right: 0;
     }
+
     .about-me {
         margin-bottom: 0;
     }

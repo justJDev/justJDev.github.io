@@ -1,0 +1,26 @@
+.experience {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.exp-header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.exp-header h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.exp-header a {
+    text-decoration: none;
+}
+
+.exp-header i {
+    color: #FC4A1A;
+    font-size: 22px;
+    margin-right: 10px;
+}

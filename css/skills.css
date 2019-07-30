@@ -25,7 +25,8 @@
     font-size: 22px;
 }
 
-@media screen and (max-width: 800px), screen and (orientation: portrait)  {
+@media screen and (max-width: 800px),
+screen and (orientation: portrait) {
     .skill {
         width: 48%;
     }
@@ -35,6 +36,7 @@
     .skills {
         justify-content: space-around;
     }
+
     .skill {
         width: 100%;
     }

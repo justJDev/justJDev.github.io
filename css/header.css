@@ -11,7 +11,8 @@
     transition: background 0.3s ease-in-out;
 }
 
-.header.scrolled, .header.shown {
+.header.scrolled,
+.header.shown {
     background: #FC4A1A;
     transition: background 0.3s ease-in-out;
 }
@@ -23,7 +24,8 @@
     transition: opacity 0.3s ease-in-out;
 }
 
-.header.scrolled h1, .header.shown h1 {
+.header.scrolled h1,
+.header.shown h1 {
     opacity: 1;
     transition: opacity 0.3s ease-in-out;
 }
@@ -31,7 +33,7 @@
 .header-inner {
     display: flex;
     justify-content: space-between;
-    max-width: 1056px;
+    max-width: 1280px;
     margin: auto;
 }
 
@@ -65,7 +67,8 @@
     transition: width 0.3s ease-in-out;
 }
 
-.navigation li:hover:after, .navigation li.active:after {
+.navigation li:hover:after,
+.navigation li.active:after {
     width: 100%;
     transition: width 0.3s ease-in-out;
 }
@@ -79,14 +82,17 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 960px), screen and (orientation: portrait) {
+@media screen and (max-width: 1279px),
+screen and (orientation: portrait) {
     .header-inner {
         flex-direction: column;
         background: inherit;
     }
+
     .header h1 {
         margin: 0 16px;
     }
+
     .navigation {
         flex-direction: column;
         align-items: flex-end;
@@ -96,13 +102,16 @@
         background: inherit;
         transition: max-height 0.1s ease-in-out;
     }
+
     .shown .navigation {
         max-height: 50vh;
         transition: max-height 0.5s ease-in-out;
     }
+
     .navigation li {
         margin: 8px 16px;
     }
+
     .navigation-button {
         display: block;
     }
