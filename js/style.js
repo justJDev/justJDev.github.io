@@ -41,7 +41,7 @@ function checkScroll() {
             $('.navigation li a[href="#' + page + '"]:first').parent().addClass("active");
         }
     });
-    $(".work").each(function() {
+    /*$(".work").each(function() {
         $(this).height($(this).width() / 16 * 9)
-    });
+    });*/
 }

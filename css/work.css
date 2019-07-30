@@ -76,10 +76,8 @@
 }
 
 .work {
-    position: relative;
     width: 304px;
     margin: 16px 0;
-    overflow: hidden;
 }
 
 .work a {
@@ -88,40 +86,28 @@
 }
 
 .work-inner {
+    padding: 5px 0;
     display: flex;
-    /*position: absolute;
-    top: 0;
-    left: 0;*/
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: left;
     content: '\A';
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.work:hover .work-inner {
-    opacity: 1;
-    transition: opacity 0.3s ease-in-out;
 }
 
 .work img {
     display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
 }
 
 .work h3,
-.work h4 {
+.work p {
     margin: 0;
-    color: #FFFFFF;
+    color: #000000;
     font-family: 'Work Sans', sans-serif;
-    text-align: center;
+    text-align: left;
+}
+
+.work p {
+    font-size: 18px;
 }
 
 .work h3 {
