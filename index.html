@@ -1,497 +1,260 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-gb">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--META-->
-    <title>Juraj Marcin | Programmer. Web developer. Photographer.</title>
-    <meta name="description"
-        content="I'm 19 years old university student interested in programming, web development, microcontrollers and photography." />
-    <meta name="author" content="Juraj Marcin" />
-    <meta name="keywords"
-        content="programmer, programming, software engineer, application, software, web, website, web development, web developer, game, game developer, arduino, atmega, microcontroller, iot, mobile, android, app, app development, photographer, photography, photo" />
+    <title>Juraj Marcin - Programmer \ Web developer \ Hobbyist Photographer</title>
+    <meta name="description" content="I'm a university student interested in programming, web development, microcontrollers and photography.">
+    <meta name="author" content="Juraj Marcin">
+    <meta name="keywords" content="programmer, programming, software engineer, application, software, web, website, web development, web developer, game, game developer, arduino, atmega, microcontroller, iot, mobile, android, app, app development, photographer, photography, photo">
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Person",
+            "address": "Košice, Slovakia",
+            "email": "mailto:juraj@jurajmarcin.com",
+            "name": "Juraj Marcin",
+            "url": "https://jurajmarcin.com"
+        }
+    </script>
     <!--OPENGRAPH-->
-    <meta property="og:url" content="https://jurajmarcin.com/" />
-    <meta property="og:title" content="Juraj Marcin | Programmer. Web developer. Photographer." />
-    <meta property="og:description"
-        content="I'm 19 years old university student interested in programming, web development, microcontrollers and photography." />
-    <meta property="og:type" content="profile" />
-    <meta property="fb:profile_id" content="juraj.marcin.235" />
-    <meta property="og:image" content="https://justjdev.github.io/img/cover.png" />
+    <meta property="og:url" content="https://jurajmarcin.com/">
+    <meta property="og:title" content="Juraj Marcin - Programmer \ Web developer \ Hobbyist Photographer">
+    <meta property="og:description" content="I'm a university student interested in programming, web development, microcontrollers and photography.">
+    <meta property="og:type" content="profile">
+    <meta property="og:image" content="https://jurajmarcin.com/assets/cover.png">
+    <!--TWITTER-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Juraj Marcin - Programmer \ Web developer \ Hobbyist Photographer">
+    <meta name="twitter:description" content="I'm a university student interested in programming, web development, microcontrollers and photography.">
+    <meta name="twitter:image" content="https://jurajmarcin.com/assets/cover.png">
     <!--FONTS-->
-    <link href="https://fonts.googleapis.com/css?family=Space+Mono%7CWork+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <!--STYLES-->
-    <link rel="stylesheet" href="./css/about.css" type="text/css" />
-    <link rel="stylesheet" href="./css/contact.css" type="text/css" />
-    <link rel="stylesheet" href="./css/experience.css" type="text/css" />
-    <link rel="stylesheet" href="./css/header.css" type="text/css" />
-    <link rel="stylesheet" href="./css/home.css" type="text/css" />
-    <link rel="stylesheet" href="./css/main.css" type="text/css" />
-    <link rel="stylesheet" href="./css/schools.css" type="text/css" />
-    <link rel="stylesheet" href="./css/skills.css" type="text/css" />
-    <link rel="stylesheet" href="./css/work.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/style.css" type="text/css">
 </head>
 
 <body>
-    <div class="header">
-        <div class="header-inner">
-            <a href="#home">
-                <h1>Juraj&nbsp;Marcin</h1>
+
+    <header>
+        <div class="container">
+            <a href="#home" class="title">
+                Juraj Marcin
             </a>
-            <ul class="navigation">
-                <li>
-                    <a href="#about-me">Who am I</a>
-                </li>
-                <li>
-                    <a href="#my-study">Where I study</a>
-                </li>
-                <li>
-                    <a href="#my-experience">Where have I worked</a>
-                </li>
-                <li>
-                    <a href="#my-skills">What do I do</a>
-                </li>
-                <li>
-                    <a href="#my-work">What have I done</a>
-                </li>
-                <li>
-                    <a href="#contact-me">How to contact me</a>
-                </li>
-            </ul>
-            <i class="fas fa-bars navigation-button"></i>
+            <nav>
+                <a href="#home">
+                    <li>Home</li>
+                </a>
+                <a href="#about">
+                    <li>About</li>
+                </a>
+                <a href="#education">
+                    <li>Education</li>
+                </a>
+                <a href="#experience">
+                    <li>Experience</li>
+                </a>
+                <a href="#projects">
+                    <li>Projects</li>
+                </a>
+                <a href="#home">
+                    <li>Contact</li>
+                </a>
+            </nav>
         </div>
+    </header>
+
+    <div id="home">
+        <div class="background"></div>
+        <span class="iam">I am</span>
+        <h1>Juraj Marcin</h1>
+        <h2>
+            Programmer \<br>
+            Web Developer \ <br>
+            Hobbyist Photographer
+        </h2>
+        <a href="#about" class="down-arrow">
+            <img src="./assets/icons/angle-double-down-solid.svg" alt="Down Arrow">
+        </a>
     </div>
-    <div id="home" class="home">
-        <div class="home-image"></div>
-        <div class="home-inner">
-            <div>
-                <h1>Juraj Marcin</h1>
-                <h2>Programmer. Web developer. Photographer.</h2>
+
+    <main class="container">
+
+        <section id="about">
+            <div class="description">
+                <h2>About Me</h2>
+                I'm a university student interested in programming, web development,
+                microcontrollers and photography. I'm self-taught and do it mainly
+                as my hobby. I also take part in various school projects and
+                competitions.
             </div>
-        </div>
-    </div>
-    <div id="about-me" class="section">
-        <div class="section-inner about">
-            <img class="about-img" src="./img/me.jpg" alt="just me, nothing more" />
-            <div class="about-me">
-                <h1>Who am I</h1>
-                <p class="about-text">
-                    I'm 19 years old university student interested in programming, web development, microcontrollers and
-                    photography. I'm self-taught and do it mainly as my hobby. I also take part in various school
-                    projects and competitions. However, I'm open to new projects.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div id="my-study" class="section">
-        <div class="section-inner">
-            <h1>Where I study</h1>
-            <div class="schools">
-                <div class="school">
-                    <div class="school-header">
-                        <i class="fas fa-university"></i>
-                        <h2><a href="https://www.fi.muni.cz/">Faculty of Informatics, Masaryk University</a></h2>
-                    </div>
-                    <p>
-                        2019 &mdash; present
-                    </p>
-                    <p>
-                        Bachelor's degree in Informatics
-                    </p>
-                </div>
-                <div class="school">
-                    <div class="school-header">
-                        <i class="fas fa-school"></i>
-                        <h2><a href="https://gympos.sk/">Gymnázium, Poštová 9, Košice</a></h2>
-                    </div>
-                    <p>
-                        2015 &mdash; 2019
-                    </p>
-                    <p>
-                        Grammar school, final exams in Slovak, English, Math and Informatics
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="my-experience" class="section">
-        <div class="section-inner">
-            <h1>Where I worked</h1>
-            <div class="experience">
-                <div class="exp">
-                    <div class="exp-header">
-                        <i class="fas fa-briefcase"></i>
-                        <h2>AT&T Global Network Services Slovakia s.r.o.</h2>
-                    </div>
-                    <p>
-                        2018, Internship
-                    </p>
-                    <p>
-                        Development of internal tools and web applications
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="my-skills" class="section">
-        <div class="section-inner">
-            <h1>What do I do</h1>
             <div class="skills">
-                <div class="skill">
-                    <div class="skill-header">
-                        <h2>Applications</h2>
-                        <i class="fas fa-desktop"></i>
-                    </div>
-                    <p>
-                        My application skills include programming Windows applications written in C# and C++ and
-                        cross-platform Java and Python applications.
-                    </p>
-                </div>
-                <div class="skill">
-                    <div class="skill-header">
-                        <h2>Web development</h2>
-                        <i class="fab fa-html5"></i>
-                    </div>
-                    <p>
-                        I'm pretty good at HTML5, CSS3, JavaScript as well as web frameworks and libraries jQuery and
-                        Angular. For backend I use PHP.
-                    </p>
-                </div>
-                <div class="skill">
-                    <div class="skill-header">
-                        <h2>Game development</h2>
-                        <i class="fas fa-gamepad"></i>
-                    </div>
-                    <p>
-                        I specialise in Unity3D game engine in combination with C# and UnityScript for scripting.
-                    </p>
-                </div>
-                <div class="skill">
-                    <div class="skill-header">
-                        <h2>Microcontrollers</h2>
-                        <i class="fas fa-microchip"></i>
-                    </div>
-                    <p>
-                        I have experience with building circuits using Arduino programmed in C++. I can also design
-                        simple PCBs ready for manufacture using SMD components.
-                    </p>
-                </div>
-                <div class="skill">
-                    <div class="skill-header">
-                        <h2>Mobile apps</h2>
-                        <i class="fas fa-mobile-alt"></i>
-                    </div>
-                    <p>
-                        I can create simple native Android applications using Java.
-                    </p>
-                </div>
-                <div class="skill">
-                    <div class="skill-header">
-                        <h2>Photography</h2>
-                        <i class="fas fa-camera"></i>
-                    </div>
-                    <p>
-                        I do photography as a hobby in my free time. Mostly I do portraits, profile pictures, product
-                        photography and landscapes.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="my-work" class="section" data-section-selected="all">
-        <div class="section-inner">
-            <h1>What have I done</h1>
-            <div class="work-changers">
-                <a class="work-changer" data-work-changer="all">All</a>
-                |
-                <a class="work-changer" data-work-changer="apps">Applications</a>
-                |
-                <a class="work-changer" data-work-changer="web">Web development</a>
-                |
-                <a class="work-changer" data-work-changer="game">Game development</a>
-                |
-                <a class="work-changer" data-work-changer="mcu">Microcontrollers</a>
-                |
-                <a class="work-changer" data-work-changer="mobile">Mobile apps</a>
-                |
-                <a class="work-changer" data-work-changer="photo">Photography</a>
-            </div>
-            <div class="my-work">
-                <div class="my-work-section apps">
-                    <div class="my-work-header">
-                        <i class="fas fa-desktop"></i>
-                        <h2>Applications</h2>
-                    </div>
-                    <div class="my-work-inner">
-                        <div class="work">
-                            <a href="https://github.com/justJDev/DirContentCompare" target="_blank">
-                                <img src="./img/work/dircontentcompare.png" alt="DirContentCompare UI" />
-                                <div class="work-inner">
-                                    <h3>DirContentCompare</h3>
-                                    <p>C# Application</p>
-                                </div>
-                            </a>
+                <h3>My skills</h3>
+                <div class="skillset">
+                    <div class="skill">
+                        <div class="skill-icon tooltip-parent">
+                            <img src="./assets/icons/desktop-solid.svg" alt="Desktop Apps">
+                            <span class="tooltip tooltip-left">Desktop Apps</span>
                         </div>
-                        <div class="work">
-                            <a href="https://github.com/justJDev/USB-Creator" target="_blank">
-                                <img src="./img/work/usbcreator.png" alt="USB Creator UI" />
-                                <div class="work-inner">
-                                    <h3>USB Creator</h3>
-                                    <p>C# Application</p>
-                                </div>
-                            </a>
+                        <div class="skill-text">
+                            GUI and CLI apps in C# (Winforms, WPF) Python (Tkinter), C and Java
                         </div>
                     </div>
-                </div>
-                <div class="my-work-section web">
-                    <div class="my-work-header">
-                        <i class="fab fa-html5"></i>
-                        <h2>Web development</h2>
-                    </div>
-                    <div class="my-work-inner">
-                        <div class="work">
-                            <a href="" target="">
-                                <img src="./img/work/jurajmarcin.png" alt="Juraj Marcin" />
-                                <div class="work-inner">
-                                    <h3>Juraj Marcin</h3>
-                                    <p>This portfolio (HTML, CSS, jQuery)</p>
-                                </div>
-                            </a>
+                    <div class="skill">
+                        <div class="skill-icon tooltip-parent">
+                            <img src="./assets/icons/html5-brands.svg" alt="Web Development">
+                            <span class="tooltip tooltip-left">Web Development</span>
                         </div>
-                        <div class="work">
-                            <a href="https://slepemapy.jurajmarcin.com" target="_blank">
-                                <img src="./img/work/slepemapy.tk.png" alt="SlepeMapy.tk" />
-                                <div class="work-inner">
-                                    <h3>SlepeMapy.tk</h3>
-                                    <p>Educational webapp (HTML, CSS, jQuery)</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="work">
-                            <a href="https://iontee.net" target="_blank">
-                                <img src="./img/work/iontee.sk.png" alt="iontee Website" />
-                                <div class="work-inner">
-                                    <h3>iontee</h3>
-                                    <p>Website (HTML, CSS, jQuery, PHP, MySQL)</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="work">
-                            <a href="http://levelandstudios.com" target="_blank">
-                                <img src="./img/work/levelandstudios.com.png" alt="Leveland Studios Website" />
-                                <div class="work-inner">
-                                    <h3>Leveland Studios</h3>
-                                    <p>Website (HTML, CSS, Angular 6, PHP, MySQL)</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="work">
-                            <a href="https://columba.gympos.sk" target="_blank">
-                                <img src="./img/work/columba.gympos.sk.png" alt="Columba Racing Website" />
-                                <div class="work-inner">
-                                    <h3>Columba Racing</h3>
-                                    <p>Website (HTML, CSS, jQuery) (without designing)</p>
-                                </div>
-                            </a>
+                        <div class="skill-text">
+                            <b>Front-end:</b> HTML5, CSS3, JS, Angular, React, jQuery<br>
+                            <b>Back-end:</b> PHP, NodeJS, Flask, MySQL, MongoDB
                         </div>
                     </div>
-                </div>
-                <div class="my-work-section game">
-                    <div class="my-work-header">
-                        <i class="fas fa-gamepad"></i>
-                        <h2>Game development</h2>
-                    </div>
-                    <div class="my-work-inner">
-                        <div class="work">
-                            <a href="https://github.com/justJDev/Crosswords" target="_blank">
-                                <img src="./img/work/crosswords.png" alt="Crosswords" />
-                                <div class="work-inner">
-                                    <h3>Crosswords</h3>
-                                    <p>Simple Python Game (tkinter)</p>
-                                </div>
-                            </a>
+                    <div class="skill">
+                        <div class="skill-icon tooltip-parent">
+                            <img src="./assets/icons/gamepad-solid.svg" alt="Game Development">
+                            <span class="tooltip tooltip-left">Game Development</span>
                         </div>
-                        <div class="work">
-                            <a href="http://levelandstudios.com" target="_blank">
-                                <img src="./img/work/lastwolves.png" alt="LastWolves" />
-                                <div class="work-inner">
-                                    <h3>LastWolves</h3>
-                                    <p>Survival game (Unity3D, C#)</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="work">
-                            <a href="https://github.com/justJDev/MazeBox" target="_blank">
-                                <img src="./img/work/mazebox.png" alt="MazeBox" />
-                                <div class="work-inner">
-                                    <h3>MazeBox</h3>
-                                    <p>Logic game (Unity3D, C#)</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="work">
-                            <a href="https://justjdev.github.io/DriveaCar/index.html" target="_blank">
-                                <img src="./img/work/driveacar.png" alt="Drive a Car" />
-                                <div class="work-inner">
-                                    <h3>Drive a Car</h3>
-                                    <p>Racing game (Unity3D, UnityScript)</p>
-                                </div>
-                            </a>
+                        <div class="skill-text">
+                            Unity3D with C# and UnityScript
                         </div>
                     </div>
-                </div>
-                <div class="my-work-section mcu">
-                    <div class="my-work-header">
-                        <i class="fas fa-microchip"></i>
-                        <h2>Microcontrollers</h2>
-                    </div>
-                    <div class="my-work-inner">
-                        <div class="work">
-                            <a href="https://github.com/gympos4x4/Car2.0" target="_blank">
-                                <img src="./img/work/rc-car-software.png" alt="ATmega2560 based RC car" />
-                                <div class="work-inner">
-                                    <h3>ATmega2560 based RC car</h3>
-                                    <p>Complete software (C++)</p>
-                                </div>
-                            </a>
+                    <div class="skill">
+                        <div class="skill-icon tooltip-parent">
+                            <img src="./assets/icons/microchip-solid.svg" alt="Microcontrollers">
+                            <span class="tooltip tooltip-left">Microcontrollers</span>
                         </div>
-                        <div class="work">
-                            <a href="https://github.com/gympos4x4/controller-scheme" target="_blank">
-                                <img src="./img/work/rc-controller-pcb.png"
-                                    alt="ATmega based RC controller PCB design" />
-                                <div class="work-inner">
-                                    <h3>ATmega based RC controller</h3>
-                                    <p>PCB design (Autodesk EAGLE)</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="work">
-                            <a href="https://github.com/gympos4x4/4x4" target="_blank">
-                                <img src="./img/work/rc-car-software.png" alt="ATmega based RC car" />
-                                <div class="work-inner">
-                                    <h3>ATmega328P based RC car</h3>
-                                    <p>Software - some libraries (C++)</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="work">
-                            <a href="https://github.com/gympos4x4/gympos.DOD" target="_blank">
-                                <img src="./img/work/opendaysdemo.png" alt="Open Days Arduino demo" />
-                                <div class="work-inner">
-                                    <h3>Open Days Arduino demo</h3>
-                                    <p>Programmed circuit (C++)</p>
-                                </div>
-                            </a>
+                        <div class="skill-text">
+                            Arduino and Atmel MCUs programmed in C
                         </div>
                     </div>
-                </div>
-                <div class="my-work-section mobile">
-                    <div class="my-work-header">
-                        <i class="fas fa-mobile-alt"></i>
-                        <h2>Mobile apps</h2>
-                    </div>
-                    <div class="my-work-inner">
-                        <div class="work">
-                            <a href="https://github.com/justJDev/Tasker" target="_blank">
-                                <img src="./img/work/tasker.png" alt="Tasker" />
-                                <div class="work-inner">
-                                    <h3>Tasker</h3>
-                                    <p>Android app (Java)</p>
-                                </div>
-                            </a>
+                    <div class="skill">
+                        <div class="skill-icon tooltip-parent">
+                            <img src="./assets/icons/mobile-alt-solid.svg" alt="Mobile Apps">
+                            <span class="tooltip tooltip-left">Mobile Apps</span>
+                        </div>
+                        <div class="skill-text">
+                            Basic Android apps in Java.
                         </div>
                     </div>
-                </div>
-                <div class="my-work-section photo">
-                    <div class="my-work-header">
-                        <i class="fas fa-camera"></i>
-                        <h2>Photography</h2>
-                    </div>
-                    <div class="my-work-inner">
-                        <div class="work">
-                            <a href="https://www.behance.net/gallery/63890541/iontee-Marketing-photography"
-                                target="_blank">
-                                <img src="./img/work/ionteemarketing.png" alt="iontee marketing" />
-                                <div class="work-inner">
-                                    <h3>iontee</h3>
-                                    <p>Promotional photos</p>
-                                </div>
-                            </a>
+                    <div class="skill">
+                        <div class="skill-icon tooltip-parent">
+                            <img src="./assets/icons/tools-solid.svg" alt="Tools">
+                            <span class="tooltip tooltip-left">Tools</span>
                         </div>
-                        <div class="work">
-                            <a target="_blank">
-                                <img src="./img/work/patrikpoprocky.png" alt="Patrik Poprocky" />
-                                <div class="work-inner">
-                                    <h3>Patrik Poprocky</h3>
-                                    <p>Profile picture</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="work">
-                            <a target="_blank">
-                                <img src="./img/work/karolkovac.png" alt="Karol Kováč" />
-                                <div class="work-inner">
-                                    <h3>Karol Kováč</h3>
-                                    <p>Profile picture</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="work">
-                            <a target="_blank">
-                                <img src="./img/work/martinstass.png" alt="Martin Stašš" />
-                                <div class="work-inner">
-                                    <h3>Martin Stašš</h3>
-                                    <p>Profile picture</p>
-                                </div>
-                            </a>
+                        <div class="skill-text">
+                            Git for version control and collaboration, Cmake (Make) for build management
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section id="education">
+            <h2>My Education</h2>
+
+            <div class="institutions">
+                <div class="institution">
+                    <div class="institution-header">
+                        <img src="./assets/icons/university-solid.svg" alt="University">
+                        <a href="https://fi.muni.cz/">
+                            <h3>Faculty&nbsp;of&nbsp;Informatics, Masaryk&nbsp;University</h3>
+                        </a>
+                    </div>
+                    <div class="institution-description">
+                        2019 &mdash; present
+                        <ul>
+                            <li>Bachelor's degree in Informatics</li>
+                            <li>Top 1% of students in the field of study</li>
+                            <li>Weighted average under 1.2</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="institution">
+                    <div class="institution-header">
+                        <img src="./assets/icons/school-solid.svg" alt="Secondary School">
+                        <a href="https://gympos.sk/">
+                            <h3>Gymnázium, Poštová 9, Košice</h3>
+                        </a>
+                    </div>
+                    <div class="institution-description">
+                        2015 &mdash; 2019
+                        <ul>
+                            <li>Grammar school, final exams in Maths, Informatics, English and Slovak language</li>
+                            <li>Graduated with honours</li>
+                            <li>Took part in several competitions focused on IT and STEM subjects (most notably Land Rover 4x4 in Schools)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>My Experience</h2>
+
+            <div class="institutions">
+                <div class="institution-header">
+                    <img src="./assets/icons/briefcase-solid.svg" alt="Work">
+                    <a href="https://www.corp.att.com/worldwide/att-you-slovakia/">
+                        <h3>AT&T Global Network Services Slovakia, s.r.o.</h3>
+                    </a>
+                </div>
+                <div class="institution-description">
+                    2018 (3 months), Full Stack Web Development Intern
+                    <ul>
+                        <li>Focused on developing internal web applications and tools</li>
+                        <li>Used HTML5, CSS3, Angular 6, Bootstrap, TypeScript, NodeJS, MongoDB</li>
+                        <li>Tools for automation of the router configuration and productivity improvement</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <div class="contacts">
+            <div class="contact">
+                <img src="./assets/icons/envelope-solid.svg" alt="Email">
+                <a href="mailto:juraj@jurajmarcin.com">
+                    juraj@jurajmarcin.com
+                </a>
+            </div>
+            <div class="contact">
+                <img src="./assets/icons/github-brands.svg" alt="GitHub">
+                <a href="https://github.com/JurajMarcin">
+                    @JurajMarcin
+                </a>
+            </div>
+            <div class="contact">
+                <img src="./assets/icons/linkedin-brands.svg" alt="LinkedIn">
+                <a href="https://www.linkedin.com/in/juraj-marcin/">
+                    @juraj-marcin
+                </a>
+            </div>
+            <div class="contact">
+                <img src="./assets/icons/instagram-brands.svg" alt="Instagram">
+                <a href="https://www.instagram.com/juraj_marcin/">
+                    @juraj_marcin
+                </a>
+            </div>
         </div>
-    </div>
-    <div id="contact-me" class="section">
-        <div class="section-inner contact">
-            <h1>How to contact me</h1>
-            <p class="contact-detail">
-                <i class="far fa-envelope"></i>
-                <a class="contact-address" href="mailto:juraj@jurajmarcin.com">juraj@jurajmarcin.com</a>
-            </p>
-            <p class="contact-detail">
-                <i class="fab fa-github"></i>
-                <a class="contact-address" href="https://github.com/justJDev">@justJDev</a>
-            </p>
-            <p class="contact-detail">
-                <i class="fab fa-linkedin"></i>
-                <a class="contact-address" href="https://linkedin.com/in/juraj-marcin">@juraj-marcin</a>
-            </p>
-            <p class="contact-detail">
-                <i class="fab fa-instagram"></i>
-                <a class="contact-address" href="https://instagram.com/juraj_marcin">@juraj_marcin</a>
-            </p>
-        </div>
-    </div>
-    <div class="footer section">
-        <div class="section-inner">
-            Copyright 2018-2019 Juraj Marcin
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="./js/style.min.js"></script>
-    <script type="application/ld+json">
-            {
-                "@context": "http://schema.org",
-                "@type": "Person",
-                "address": "Košice, Slovakia",
-                "email": "mailto:juraj@jurajmarcin.com",
-                "image": "https://jurajmarcin.com/img/me.jpg",
-                "name": "Juraj Marcin",
-                "url": "https://jurajmarcin.com"
-            }
-        </script>
+    </section>
+
+    <footer>
+        <p>
+            Copyright 2018-2020 Juraj Marcin
+        </p>
+        <p>
+            Icons by <a href="https://fontawesome.com/">FontAwesome</a> licensed under <a href="https://fontawesome.com/license/free">CC BY 4.0</a>
+        </p>
+    </footer>
+
+    <script src="./assets/main.js"></script>
+
 </body>
 
 </html>
